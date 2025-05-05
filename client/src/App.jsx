@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <div className='font-bold'>App</div>
+    <div>
+      <Navbar/>
+    </div>
     
   )
 }
